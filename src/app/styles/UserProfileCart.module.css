@@ -1,0 +1,37 @@
+/* styles/UserProfileCart.module.css */
+.user-profile-cart {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-profile-cart h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-info {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.user-info p {
+  margin: 5px 0;
+}
+
+.cart {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cart h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
