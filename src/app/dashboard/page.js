@@ -22,7 +22,6 @@ export default function Dashboard() {
     }
 
   }
-  console.log(session?.user, 'session?.user')
 
 
   return (
