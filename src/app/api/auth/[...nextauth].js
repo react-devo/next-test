@@ -11,7 +11,6 @@ const handler = NextAuth({
         }),
         // Add other authentication providers if needed
     ],
-    // Add custom configurations if necessary
 });
 
 
