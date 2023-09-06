@@ -9,7 +9,7 @@ import { NotificationContainer } from 'react-notifications';
 export default function SignIn() {
   const handleGoogleLogin = async () => {
     const data = await signIn('google', { callbackUrl: 'http://localhost:3000/dashboard' });
-    console.log(data, 'data');
+    
   }
   return (
     <div className={styles.container}>
