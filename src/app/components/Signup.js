@@ -89,7 +89,7 @@ function Signup() {
                     />
                 </div>
                 <div>
-                    <label>Email:</label>
+                    <label>Email*:</label>
                     <input
                         type="email"
                         name="email"
@@ -98,7 +98,7 @@ function Signup() {
                     />
                 </div>
                 <div>
-                    <label>Password:</label>
+                    <label>Password*:</label>
                     <input
                         type="password"
                         name="password"
@@ -106,7 +106,7 @@ function Signup() {
                         onChange={handleChange}
                     />
                 </div>
-                <button type="submit" disabled={disable ? disable : false}>{loading ? "Processing" : "Signup"}</button>
+                <button type="submit"  className='signUpBtn' disabled={disable ? disable : false}>{loading ? "Processing" : "Signup"}</button>
             </form>
         </div>
     );

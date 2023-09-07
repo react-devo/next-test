@@ -35,3 +35,25 @@
   font-size: 20px;
   margin-bottom: 10px;
 }
+.text-center{
+  text-align: center;
+}
+.mt-4{
+  margin-top: 1rem;
+}
+.mb-4{
+  margin-bottom: 1rem;
+}
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-profile-cart {
+  max-width: 30rem;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

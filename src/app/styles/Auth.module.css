@@ -47,4 +47,67 @@
   .form button:hover {
     background-color: #0051a8;
   }
-  
+  .text-center{
+    text-align: center;
+  }
+  .mt-4{
+    margin-top: 1rem;
+  }
+  .mb-4{
+    margin-bottom: 1rem;
+  }
+  .flexBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.flexBox a{
+  font-weight: 700;
+}
+.d-inherit{
+  display: inherit;
+}
+.loginBtn {
+  margin-top: 1rem;
+  display: inherit;
+  width: max-content;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+.text-right{
+  text-align: right;
+}
+.p-4{
+  padding: 1rem;
+}
+.userprofilecart {
+  max-width: 30rem;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  min-height: 25rem;
+  text-align: center;
+}
+.btnBlue {
+  display: inline-block;
+  text-align: center;
+  background: #0070f3;
+  min-width: 10rem;
+  padding: 0.5rem;
+  color: #fff;
+}
+.cartBtn{
+  text-align: center;
+  margin-top: 1rem;
+}
+.header{
+  background-color: #f2f2f2;
+  padding: 1rem;
+}
+ .form button:disabled {
+  cursor: inherit;
+}

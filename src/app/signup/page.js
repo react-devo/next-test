@@ -11,7 +11,8 @@ export default function SignUp() {
             <NotificationContainer />
             <div className={styles.form}>
                 <Signup />
-                <Link href={'/login'} >Login</Link>
+                <p className='text-center mt-4'>Already have an account ?</p>
+                <Link href={'/login'} className={styles.loginBtn}>Login</Link>
             </div>
 
         </div>
