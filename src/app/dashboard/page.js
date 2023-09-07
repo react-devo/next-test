@@ -21,7 +21,7 @@ export default function Dashboard() {
       router.push('/login');
     } else if (session?.user) {
       deleteCookie('token');
-      signOut({ callbackUrl: 'http://localhost:3000/login' });
+      signOut({ callbackUrl: `${process.env.AUTH_REDIRECT_URL}/login` });
 
     }
 

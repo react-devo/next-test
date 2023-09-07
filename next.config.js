@@ -10,7 +10,7 @@ const nextConfig = {
     API_BASE_URL: 'https://reqres.in/api',
     GOOGLE_CLIENT_ID: '864983917151-sl5tctj5r09q68itb2ki6du5kldm75ds.apps.googleusercontent.com',
     GOOGLE_CLIENT_SECRET: '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',
-    AUTH_REDIRECT_URL: "https://silver-snickerdoodle-77bd0a.netlify.app"
+    AUTH_REDIRECT_URL: "https://exquisite-raindrop-8114a5.netlify.app"
   }),
   images: {
     remotePatterns: [
